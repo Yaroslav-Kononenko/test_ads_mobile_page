@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test_ads_mobile_page/static/css/main.a1e77f18.css",
+    "main.js": "/test_ads_mobile_page/static/js/main.63a36de1.js",
+    "static/media/header_bg1.jpg": "/test_ads_mobile_page/static/media/header_bg1.41a9d3ec73d5db5d7424.jpg",
+    "static/media/3sectionBg.jpg": "/test_ads_mobile_page/static/media/3sectionBg.c4bdca2f632c52cf8f0c.jpg",
+    "static/media/SFUIText-Bold.ttf": "/test_ads_mobile_page/static/media/SFUIText-Bold.a2580a5ed61544f9dfc6.ttf",
+    "static/media/SFUIText-Regular.ttf": "/test_ads_mobile_page/static/media/SFUIText-Regular.03234af84a13feaa29bd.ttf",
+    "static/media/kianu_2section.jpg": "/test_ads_mobile_page/static/media/kianu_2section.3b1cd954b61fb35a2e6a.jpg",
+    "static/media/partners.jpg": "/test_ads_mobile_page/static/media/partners.fcfd1e9fd84b7858f999.jpg",
+    "index.html": "/test_ads_mobile_page/index.html",
+    "static/media/Menu.svg": "/test_ads_mobile_page/static/media/Menu.ba172eee1a336b3df79726902f51cb35.svg",
+    "static/media/scroll_arrow.svg": "/test_ads_mobile_page/static/media/scroll_arrow.85493c5dee09ee815ca07951f921f27c.svg",
+    "main.a1e77f18.css.map": "/test_ads_mobile_page/static/css/main.a1e77f18.css.map",
+    "main.63a36de1.js.map": "/test_ads_mobile_page/static/js/main.63a36de1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1e77f18.css",
+    "static/js/main.63a36de1.js"
+  ]
+}
