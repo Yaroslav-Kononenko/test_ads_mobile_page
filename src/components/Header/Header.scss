@@ -1,0 +1,78 @@
+.Nav {
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  z-index: 15;
+  top: 13px;
+  left: 15px;
+  margin: 0;
+
+  &__menu {
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-image: url(../../images/header_bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  position: relative;
+  scroll-snap-align: start;
+
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 10px 0 0;
+  }
+
+  &__scroll {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    z-index: 15;
+    bottom: 20px;
+    left: calc(50% - 8px);
+  }
+
+  &::before {
+    content: "";
+    display: block;    
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    top: 0;      
+    left: 0;   
+    background: transparent;
+    background-image: linear-gradient(to left, #101010, #101010);
+    opacity: 0.8;
+    z-index: 10;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  z-index: 15;
+  margin: 0 25px 0 50px;
+}

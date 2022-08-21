@@ -1,0 +1,17 @@
+@import url('./utils/_variables.scss');
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./fonts/SFUIText-Regular.ttf") format("ttf"),
+}
+
+.App {
+  overflow-y: auto;
+
+  &__section {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    min-width: 320px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}

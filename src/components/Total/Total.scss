@@ -1,0 +1,56 @@
+@import '../../utils/_variables.scss';
+
+.Total {
+  position: relative;
+  color: #fff;
+  font-style: normal;
+  scroll-snap-align: start;
+
+  &__title {
+    position: absolute;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    margin: 26% 10px 0 13.334%;
+  }
+
+  &__textContainer {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: 40px 20px;
+    top: 28.33%;
+    margin: 0 10px 52px 13.334%;
+  }
+
+  &__link {
+    position: absolute;
+    left: 13.334%;
+    bottom: 20.09%;
+    display: inline-block;
+    padding: 20px 51px;
+    border-radius: 5px;
+    background: $descrBorderAndButtonColorEmerald;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+  }
+}
+
+.Textbox {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  min-width: 136px;
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
